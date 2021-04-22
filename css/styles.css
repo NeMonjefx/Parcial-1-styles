@@ -1,0 +1,174 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+/* NAVBAR */
+.navbar-brand{
+    font-weight: bold;
+    font-style: italic; 
+    font-family: 'Kiwi Maru', serif;  
+}
+.navbar-brand:hover{
+    font-style: normal;
+}
+/* ------------------- */
+/* SLIDER */
+.slider-index{
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+}
+@media (max-width: 576px) {
+    .slider-index {
+    margin-top: 20px; 
+    }
+}
+/* ------------------- */
+
+/* GALERIA PRODUCTOS */
+.galeria-titulo{
+    font-weight: bold;
+    font-family: 'Kiwi Maru', serif;
+    text-align: center;
+    margin: 20px 0px 30px 0;
+}
+.container-galeria{
+    margin-left: 30px;
+    
+}
+.card{
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+    margin-bottom: 5rem;
+}
+.card h5{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.card p{
+    font-weight: normal;
+}
+.card p span{
+    font-weight: bold;
+}
+@media (max-width: 768px){
+    .container-galeria{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 576px){
+    .container-galeria{
+        margin-left: 40px;
+    }
+}
+/* ------------------- */
+
+/* FORMULARIO REGISTRO */
+.form-registro{
+    width: 500px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+    border-radius: 3px;
+    padding: 20px;
+}
+.form-registro h2{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Kiwi Maru', serif;
+    margin-bottom: 15px;
+}
+.form-registro label{
+    font-family: 'Kiwi Maru', serif; 
+    font-weight: normal;
+    font-size: 18px;
+}
+.form-registro input{
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px solid black;
+    color: black;
+}
+.form-registro select{
+    border: 1px solid black;
+    margin-bottom:  10px;
+}
+.genero{
+    margin-bottom: 10px;
+}
+.genero p{
+    font-family: 'Kiwi Maru', serif;
+    font-size: 18px;
+}
+.genero label{
+    font-size: 14px;
+    font-weight: normal;
+}
+.form-registro .form-check label{
+    font-weight: normal;
+}
+.form-registro .form-check span{
+    font-weight: bold;
+}
+.terminos:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+.form-registro button:hover{
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+}
+@media (max-width: 576px){
+    .form-registro{
+        width: auto;
+    }
+    .form-registro h2{
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        font-family: 'Kiwi Maru', serif;
+        margin-bottom: 15px;
+    }
+}
+/* ------------------- */
+/* FORMULARIO INICIO SESION */
+.form-inicio-sesion{
+    width: 500px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+    border-radius: 3px;
+    padding: 20px;
+}
+.form-inicio-sesion h2{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Kiwi Maru', serif;
+    margin-bottom: 15px;
+}
+.form-inicio-sesion label{
+    font-family: 'Kiwi Maru', serif; 
+    font-weight: normal;
+    font-size: 18px;
+}
+.form-inicio-sesion input{
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px solid black;
+    color: black;
+}
+.form-inicio-sesion button:hover{
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+}
+@media (max-width: 576px){
+    .form-inicio-sesion{
+        width: auto;
+    }
+    .form-inicio-sesion h2{
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        font-family: 'Kiwi Maru', serif;
+        margin-bottom: 15px;
+    }
+}
+
+/* ------------------- */
